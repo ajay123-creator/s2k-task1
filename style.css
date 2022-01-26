@@ -1,0 +1,127 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #e3e3e3;
+}
+.container{
+    background-color: white;
+    width:50%;
+    margin:1em auto 1em auto;
+    border-radius: 8px;
+}
+.credit{
+   width:100%;
+   border:1px solid rgb(206 212 218);
+   color:white;
+   border-radius: 4px;
+   padding:0.7em 1em 0.7em 1em;
+   background-color:#eaa412 ;
+}
+.paypal{
+   width:100%;
+   border:1px solid rgb(206 212 218);
+   color:grey;
+   border-radius: 4px;
+   padding:0.7em 1em 0.7em 1em;
+   opacity:0.5;
+}
+.datecontainer{
+    width:80%;
+}
+.fas{
+    color:grey;
+    opacity: 0.5;
+}
+.far{
+    color:grey;
+    opacity: 0.5;
+}
+.gendercontainer{
+    width:65.5%;
+}
+.heading h5{
+    padding-top: 1.4em;
+    padding-bottom:0.8rem;
+    color:#eaa412;
+    font-size: 1rem;
+}
+.input-group-text
+{
+    background-color: rgb(248, 248, 248);
+}
+.input-group input{
+    background-color: rgb(248, 248, 248);
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+}
+.lessopacity{
+    opacity:0.8;
+}
+.mybtn{
+    padding:0.3em 1em 0.3em 1em;
+    border:1px solid rgb(206 212 218);
+    background-color:rgb(248, 248, 248) ;
+    border-radius: 4px;
+    color:grey;
+}
+.main-container{
+    width:90%;
+    margin:1em auto 1em auto;
+    padding-bottom: 2em;
+}
+.malebtn{
+    padding-left: 1.3em;
+    padding-right: 1.3em;
+}
+.row input{
+    background-color: rgb(248, 248, 248);
+   
+}
+.termslabel{
+    color:grey;
+    opacity:0.8;
+    font-size: 1rem;
+    display: inline;
+    margin-left: 1em;;
+}
+
+@media(max-width:1000px)
+{
+    .container{
+       
+        width:70%;
+      
+    }
+    .heading h5{
+        font-size:1.2rem;
+    }
+}
+@media(max-width:700px)
+{
+    .container{
+        
+        width:90%;
+      
+    }
+    .heading h5{
+        font-size:1.2rem;
+    }
+    .row {
+        --bs-gutter-x: 1rem;
+    }
+}
+@media (min-width: 100px)
+{
+    .col-sm-4 {
+        flex: 0 0 auto;
+        width: 33.33333333%;
+    }
+
+    .col-sm-6 {
+        flex: 0 0 auto;
+        width: 50%;
+    }
+}
